@@ -28,8 +28,7 @@
     margin-top: -75px;
 }
 
-.color2{background:#fcc314;
-
+.color2{background:#F68C2A;
 }
 .slider {
     position: fixed;
@@ -37,7 +36,9 @@
     right: 0;
     bottom: 0;
     left: 0;
-    width: 8rem;
+    width: 0.1rem;
+    margin-left: 5rem;
+    
 }
           /* La imagen de adapte al tamaño del despoditivo */
 .mySpan{
@@ -46,3 +47,32 @@
     height: 100px;
     background: yellow;
 }
+
+#casa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+#ayuda {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+#switchUser {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+#leave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  #columna {
+    position: relative;
+    z-index: 0;
+  }
