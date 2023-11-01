@@ -14,8 +14,8 @@
 
 /* Reducir el ancho de la imagen al 100% del contenedor */
 .imagen-achicada {
-    margin: 4rem;
-    width: 12rem;
+    margin: 1.8rem;
+    width: 10rem;
     height: auto; /* Mantener la relación de aspecto original de la imagen */
 }
 
@@ -26,4 +26,23 @@
     align-items: center;
     flex-direction: column;
     margin-top: -75px;
+}
+
+.color2{background:#fcc314;
+
+}
+.slider {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 8rem;
+}
+          /* La imagen de adapte al tamaño del despoditivo */
+.mySpan{
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    background: yellow;
 }
