@@ -18,7 +18,12 @@
     width: 20rem;
     height: auto; /* Mantener la relación de aspecto original de la imagen */
 }
-
+.imagen-achicada:hover {
+    
+    background: rgb(155, 153, 153);
+    border-radius: 10px;
+    
+}
 .input-container{
     display: flex;
     width: 100%;
