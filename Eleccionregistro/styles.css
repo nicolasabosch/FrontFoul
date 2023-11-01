@@ -1,0 +1,64 @@
+.custom-login-btn {
+    background-color: #F68C2A; /* Orange background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove the default button border */
+    padding: 0.5rem 1.875rem; /* Adjust padding as needed */
+    border-radius: 10px; /* Add rounded corners */
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.imagen-container {
+    max-width: 100%; /* Hace que el contenedor sea responsivo */
+}
+
+/* Reducir el ancho de la imagen al 100% del contenedor */
+.imagen-achicada {
+    margin: 0.5rem;
+    width: 20rem;
+    height: auto; /* Mantener la relación de aspecto original de la imagen */
+}
+
+.input-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -75px;
+}
+
+.color2{background:#fcc314;
+
+}
+.slider {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 8rem;
+}
+          /* La imagen de adapte al tamaño del despoditivo */
+.mySpan{
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    background: yellow;
+}
+.caption{
+    display:block
+}
+.container {
+    text-align: center;
+}
+
+.image-container {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.text-container {
+    text-align: center;
+    clear: both;
+}
