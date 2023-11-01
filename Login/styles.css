@@ -14,17 +14,11 @@
 
 /* Reducir el ancho de la imagen al 100% del contenedor */
 .imagen-achicada {
-    margin: 4rem;
+    margin: 1.8rem;
     width: 12rem;
-    margin: 0rem;
-    width: 16rem;
-    height: auto; /* Mantener la relación de aspecto original de la imagen */
+    height: auto;
 }
-.imagen-achicada-primerapantalla {
-    margin: 3rem;
-    width: 17rem;
-    height: auto; /* Mantener la relación de aspecto original de la imagen */
-}
+
 .input-container{
     display: flex;
     width: 100%;
