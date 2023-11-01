@@ -5,7 +5,7 @@
     padding: 0.5rem 1.875rem; /* Adjust padding as needed */
     border-radius: 10px; /* Add rounded corners */
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
 
 .imagen-container {
@@ -18,7 +18,11 @@
     width: 16rem;
     height: auto; /* Mantener la relación de aspecto original de la imagen */
 }
-
+.imagen-achicada-primerapantalla {
+    margin: 3rem;
+    width: 17rem;
+    height: auto; /* Mantener la relación de aspecto original de la imagen */
+}
 .input-container{
     display: flex;
     width: 100%;
