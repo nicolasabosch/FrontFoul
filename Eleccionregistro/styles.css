@@ -14,15 +14,25 @@
 
 /* Reducir el ancho de la imagen al 100% del contenedor */
 .imagen-achicada {
-    margin: 0.5rem;
+   
+    margin: 1rem;
     width: 20rem;
-    height: auto; /* Mantener la relación de aspecto original de la imagen */
+    height: 20rem; /* Mantener la relación de aspecto original de la imagen */
 }
 .imagen-achicada:hover {
-    
-    background: rgb(155, 153, 153);
+    transform: scale(1.1); /* Increase the size by 10% */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+    background: lightgray;
     border-radius: 10px;
+    --box-shadow-color:  lightgray;
+    box-shadow: 0 0 30px var(--box-shadow-color);
     
+}
+
+.imagen-achicada:focus{
+    background: gray;
+    --box-shadow-color: gray;
+    box-shadow: 0 0 30px var(--box-shadow-color);
 }
 .input-container{
     display: flex;
@@ -32,6 +42,7 @@
     flex-direction: column;
     margin-top: -75px;
 }
+
 
 .color2{background:#fcc314;
 
