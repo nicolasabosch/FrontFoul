@@ -1,0 +1,84 @@
+.custom-login-btn {
+    background-color: #F68C2A; /* Orange background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove the default button border */
+    padding: 0.5rem 1.875rem; /* Adjust padding as needed */
+    border-radius: 10px; /* Add rounded corners */
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.custom-login-btn:hover{
+    background: #b4671e;
+    border-radius: 10px;
+}
+
+.imagen-container {
+    max-width: 100%; /* Hace que el contenedor sea responsivo */
+}
+
+/* Reducir el ancho de la imagen al 100% del contenedor */
+.imagen-achicada {
+   
+    margin: 2rem;
+    width: 12rem;
+    height: auto; /* Mantener la relación de aspecto original de la imagen */
+}
+.imagen-achicada:hover {
+    transform: scale(1.1); /* Increase the size by 10% */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+    background: lightgray;
+    border-radius: 10px;
+    --box-shadow-color:  lightgray;
+    box-shadow: 0 0 30px var(--box-shadow-color);
+    
+}
+
+.imagen-achicada:focus{
+    background: gray;
+    --box-shadow-color: gray;
+    box-shadow: 0 0 30px var(--box-shadow-color);
+}
+.input-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -75px;
+}
+
+
+.color2{background:#fcc314;
+
+}
+.slider {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 8rem;
+}
+          /* La imagen de adapte al tamaño del despoditivo */
+.mySpan{
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    background: yellow;
+}
+.caption{
+    display:block
+}
+.container {
+    text-align: center;
+}
+
+.image-container {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.text-container {
+    text-align: center;
+    clear: both;
+}
