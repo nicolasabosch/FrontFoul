@@ -1,0 +1,97 @@
+.custom-login-btn {
+    background-color: #F68C2A; /* Orange background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove the default button border */
+    padding: 0.5rem 1.875rem; /* Adjust padding as needed */
+    border-radius: 10px; /* Add rounded corners */
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.imagen-container {
+    max-width: 100%; /* Hace que el contenedor sea responsivo */
+}
+
+/* Reducir el ancho de la imagen al 100% del contenedor */
+.imagen-achicada {
+    margin: 1.8rem;
+    width: 10rem;
+    height: auto; /* Mantener la relación de aspecto original de la imagen */
+    vertical-align:middle
+}
+/* Add a class to the "Jugador" text for better targeting */
+
+.icon:hover {
+  transform: scale(1.1); /* Increase the size by 10% */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+  background: lightgray;
+  border-radius: 10px;
+  --box-shadow-color:  lightgray;
+  box-shadow: 0 0 30px var(--box-shadow-color);
+  
+}
+.input-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -75px;
+}
+
+.color2{background:#F68C2A;
+}
+.slider {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 0.1rem;
+    margin-left: 5rem;
+    
+}
+          /* La imagen de adapte al tamaño del despoditivo */
+.mySpan{
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    background: yellow;
+}
+
+#casa {
+    background-color: #F68C2A; /* Orange background color */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+#ayuda {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+  }
+#switchUser {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+  }
+#leave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  #columna {
+    position: relative;
+    z-index: 1;
+  }
+  hr {
+    height: 2px;
+    background-color: #F68C2A;
+    border: none;
+    margin-left:8%;
+  }
+ 
