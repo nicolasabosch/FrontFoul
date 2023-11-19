@@ -2,10 +2,16 @@
     background-color: #F68C2A; /* Orange background color */
     color: #fff; /* White text color */
     border: none; /* Remove the default button border */
-    padding: 0.5rem 1.875rem; /* Adjust padding as needed */
+    padding: 0.5rem 4rem; /* Adjust padding as needed */
     border-radius: 10px; /* Add rounded corners */
     font-weight: bold;
     font-size: 1.2rem;
+    position: absolute;
+    top: 815px;
+    right: 860px;
+    
+   
+    
 }
 
 .imagen-container {
@@ -94,4 +100,23 @@
     border: none;
     margin-left:8%;
   }
- 
+  
+   /* Custom styles for the dropdown button */
+   .btn-secondary.custom-dropdown {
+    background-color: white; /* Change the background color to white */
+    color: #F68C2A; /* Change the text color to your desired color */
+    border: none; /* Remove the default border */
+    border-bottom: 3px solid #F68C2A; /* Add a 2px orange border below the button */
+  }
+
+  /* Custom styles for the dropdown items */
+  .dropdown-menu.custom-menu {
+    background-color: #F68C2A; /* Change the background color of the dropdown menu */
+    color: white; /* Change the text color of the dropdown menu items */
+  }
+  .dropdown-container {
+    position: absolute;
+    top: 400px;
+    left: 850px;
+    margin: 10px;
+  }
