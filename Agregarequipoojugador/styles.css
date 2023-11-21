@@ -2,13 +2,13 @@
     background-color: #F68C2A; /* Orange background color */
     color: #fff; /* White text color */
     border: none; /* Remove the default button border */
-    padding: 0.5rem 4rem; /* Adjust padding as needed */
+    padding: 0.5rem 4.5rem; /* Adjust padding as needed */
     border-radius: 10px; /* Add rounded corners */
     font-weight: bold;
     font-size: 1.2rem;
     position: absolute;
     top: 815px;
-    right: 860px;
+    left: 1210px;
     
    
     
@@ -117,6 +117,6 @@
   .dropdown-container {
     position: absolute;
     top: 400px;
-    left: 850px;
+    left: 700px;
     margin: 10px;
   }
